@@ -12,7 +12,7 @@ class SocialAccounts extends StatelessWidget {
       Container(
         padding: EdgeInsets.all(10),
         child: Icon(
-          Icons.mail_outline_rounded,
+          Icons.email_outlined,
           color: Colors.white,
         ).mdClick(() {
           launch("mailto:"+MAIL_ID);
