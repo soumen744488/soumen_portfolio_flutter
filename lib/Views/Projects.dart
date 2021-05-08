@@ -93,7 +93,7 @@ class _ProjectsState extends State<Projects> {
                           SecondTechnologyIconPath: 'assets/images/flutter.png',
                           ThirdTechnologyIconPath: 'assets/images/dart.png',
                           ForthTechnologyIconPath: 'assets/images/firebase.png',
-                          ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter.git",
+                          ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter",
                         );
                       }
                       return Container();
