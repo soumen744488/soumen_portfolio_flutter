@@ -68,8 +68,8 @@ class _ExperienceState extends State<Experience> {
                           CompanyLogoPath:
                               'assets/images/cessini.png',
                           CompanyName: "Cessini Technology Private Limited",
-                          WorkDescription: "I work as a Full Stack Flutter Developer as an intern in Cessini Technology Private Limited.",
-                          WorkDescriptionForMobile: "I work as a Full Stack Flutter Developer \nas an intern in Digital Friend.",
+                          WorkDescription: "I work as a Application Engineer as an intern in Cessini Technology Private Limited.",
+                          WorkDescriptionForMobile: "I work as a Application Engineer \nas an intern in Cessini Technology Private Limited.",
                           WorkDuration: "May,2021 - Present",
                         );
                       }
