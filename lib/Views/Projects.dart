@@ -68,10 +68,10 @@ class _ProjectsState extends State<Projects> {
                           ProjectLogoPath: 'assets/images/iv.png',
                           ProjectDescription: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
                           ProjectDescriptionForMobile: "'RWS' or 'Read Write & Share' is an Android application .\nOne can use it as a code editor (c,c++,java,python) and sharing purpose",
-                          FirstTechnologyIconPath: 'assets/images/androidicon.png',
-                          SecondTechnologyIconPath: 'assets/images/javaicon.png',
-                          ThirdTechnologyIconPath: 'assets/images/xml.png',
-                          ForthTechnologyIconPath: 'assets/images/api.png',
+                          FirstTechnology: 'Android',
+                          SecondTechnology: 'Java',
+                          ThirdTechnology: 'Xml',
+                          ForthTechnology: 'Rest Api (Rectrofit)',
                           ProjectUrl: "https://github.com/iamsouviki/Read-Write-and-Share",
                         );
                       }
@@ -89,10 +89,10 @@ class _ProjectsState extends State<Projects> {
                           ProjectLogoPath: '',
                           ProjectDescription: "'My Portfolio' is a flutter web application . Its just a web resume",
                           ProjectDescriptionForMobile: "'My Portfolio' is a flutter web application .\nIts just a web resume",
-                          FirstTechnologyIconPath: 'assets/images/github.png',
-                          SecondTechnologyIconPath: 'assets/images/flutter.png',
-                          ThirdTechnologyIconPath: 'assets/images/dart.png',
-                          ForthTechnologyIconPath: 'assets/images/firebase.png',
+                          FirstTechnology: 'Flutter',
+                          SecondTechnology: 'Dart',
+                          ThirdTechnology: 'Github',
+                          ForthTechnology: 'Firebase',
                           ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter",
                         );
                       }
@@ -110,10 +110,10 @@ class _ProjectsState extends State<Projects> {
                           ProjectLogoPath: '',
                           ProjectDescription: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and as well as we can save money for predefine expenses which will help for future investment . ",
                           ProjectDescriptionForMobile: "'Expense Manager' is a Python GUI tikinter Based application , \nwhich is developed to keep tracking on daily expenses and \nas well as we can save money for predefine expenses which will help for future investment .",
-                          FirstTechnologyIconPath: '',
-                          SecondTechnologyIconPath: 'assets/images/python.png',
-                          ThirdTechnologyIconPath: 'assets/images/sqlite.png',
-                          ForthTechnologyIconPath: '',
+                          FirstTechnology: '',
+                          SecondTechnology: 'Python',
+                          ThirdTechnology: 'Sqlite',
+                          ForthTechnology: '',
                           ProjectUrl: "https://github.com/soumen744488/ExpenseManager",
                         );
                       }

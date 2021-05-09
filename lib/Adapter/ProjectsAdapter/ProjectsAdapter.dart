@@ -7,22 +7,22 @@ class ProjectAdapter extends StatefulWidget {
   final String ProjectLogoPath;
   final String ProjectDescription;
   final String ProjectDescriptionForMobile;
-  final String FirstTechnologyIconPath;
-  final String SecondTechnologyIconPath;
-  final String ThirdTechnologyIconPath;
-  final String ForthTechnologyIconPath;
+  final String FirstTechnology;
+  final String SecondTechnology;
+  final String ThirdTechnology;
+  final String ForthTechnology;
   final String ProjectUrl;
 
   const ProjectAdapter(
-      {key,
+      {Key key,
        this.ProjectName,
        this.ProjectLogoPath,
        this.ProjectDescription,
        this.ProjectDescriptionForMobile,
-       this.FirstTechnologyIconPath,
-       this.SecondTechnologyIconPath,
-       this.ThirdTechnologyIconPath,
-       this.ForthTechnologyIconPath,
+       this.FirstTechnology,
+       this.SecondTechnology,
+       this.ThirdTechnology,
+       this.ForthTechnology,
        this.ProjectUrl})
       : super(key: key);
   @override
@@ -105,63 +105,59 @@ class _ProjectAdapterState extends State<ProjectAdapter> {
                     child: FittedBox(
                       fit: BoxFit.contain,
                       child: Container(
-                        width: 200,
                         alignment: Alignment.center,
                         child: Row(
                           children: [
-                            widget.FirstTechnologyIconPath == ''
-                                ? Container(
-                                    height: 20,
-                                    width: 20,
-                                  )
-                                : Container(
-                                    height: 15,
-                                    width: 40,
-                                    child: Image.asset(
-                                        widget.FirstTechnologyIconPath),
-                                  ),
-                            SizedBox(
-                              width: 7,
+                            Container(
+                              margin: EdgeInsets.only(right: 7),
+                              child: Text(
+                                "Technologies Used : ",
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    letterSpacing: 1.5,
+                                    color: Colors.white),
+                              ),
                             ),
-                            widget.SecondTechnologyIconPath == ''
-                                ? Container(
-                                    height: 20,
-                                    width: 20,
-                                  )
-                                : Container(
-                                    height: 15,
-                                    width: 40,
-                                    child: Image.asset(
-                                        widget.SecondTechnologyIconPath),
-                                  ),
-                            SizedBox(
-                              width: 7,
+                            Container(
+                              margin: EdgeInsets.only(right: 7),
+                              child: Text(
+                                widget.FirstTechnology,
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    letterSpacing: 1.5,
+                                    color: Colors.white),
+                              ),
                             ),
-                            widget.ThirdTechnologyIconPath == ''
-                                ? Container(
-                                    height: 20,
-                                    width: 20,
-                                  )
-                                : Container(
-                                    height: 15,
-                                    width: 40,
-                                    child: Image.asset(
-                                        widget.ThirdTechnologyIconPath),
-                                  ),
-                            SizedBox(
-                              width: 7,
+                            Container(
+                              margin: EdgeInsets.only(right: 7),
+                              child: Text(
+                                widget.SecondTechnology,
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    letterSpacing: 1.5,
+                                    color: Colors.white),
+                              ),
                             ),
-                            widget.ForthTechnologyIconPath == ''
-                                ? Container(
-                                    height: 20,
-                                    width: 20,
-                                  )
-                                : Container(
-                                    height: 15,
-                                    width: 40,
-                                    child: Image.asset(
-                                        widget.ForthTechnologyIconPath),
-                                  )
+                            Container(
+                              margin: EdgeInsets.only(right: 7),
+                              child: Text(
+                                widget.ThirdTechnology,
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    letterSpacing: 1.5,
+                                    color: Colors.white),
+                              ),
+                            ),
+                            Container(
+                              margin: EdgeInsets.only(right: 7),
+                              child: Text(
+                                widget.ForthTechnology,
+                                style: TextStyle(
+                                    fontSize: 10,
+                                    letterSpacing: 1.5,
+                                    color: Colors.white),
+                              ),
+                            )
                           ],
                         ),
                       ),
