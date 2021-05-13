@@ -66,11 +66,11 @@ class _ExperienceState extends State<Experience> {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ExperienceAdapter(
                           CompanyLogoPath:
-                              'assets/images/cessini.png',
-                          CompanyName: "Cessini Technology Private Limited",
-                          WorkDescription: "I work as a Application Engineer as an intern in Cessini Technology Private Limited.",
-                          WorkDescriptionForMobile: "I work as a Application Engineer \nas an intern in Cessini Technology Private Limited.",
-                          WorkDuration: "May,2021 - Present",
+                              '',
+                          CompanyName: "",
+                          WorkDescription: "",
+                          WorkDescriptionForMobile: "",
+                          WorkDuration: "",
                         );
                       }
                       return Container();
