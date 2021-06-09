@@ -4,7 +4,7 @@ const String LINKEDLN_URL = "linkedin.com/in/soumen-pal-9a355b154";
 const String GITHUB_URL = "https://github.com/soumen744488";
 const String TWITTER_URL = "https://twitter.com/palsoumen748";
 const String INSTAGRAM_URL = "https://www.instagram.com/soumen748";
-const String FACEBOOK_URL = "https://fb.com/";
+const String FACEBOOK_URL = "https://www.facebook.com/soumenp748/;
 
 
 //INTRODUCTION PAGE VARIABLE
