@@ -29,7 +29,7 @@ const String WHO_AM_I ="Hello! I'm Soumen Pal  , a graduated Computer Science an
 //EDUCATION
 const String DEGREE = "Bachelor of Technology in Computer Science & Engineering ( 2017-2021 ) ";
 const String COLLEGE_NAME = "Saroj Mohan Institute Of Technology";
-const String CGPA = "CGPA :- 7.87";
+const String CGPA = "DGPA :- 7.87";
 
 const String TWELVETH_SCHOOL = "HOOMGARH CHANDABILA HIGH SCHOOL";
 const String TWELVETH_PERSENTAGE = "Percentage :- 64";
