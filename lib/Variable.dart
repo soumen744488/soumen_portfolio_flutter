@@ -9,7 +9,7 @@ const String FACEBOOK_URL = "https://www.facebook.com/soumenp748/";
 
 //INTRODUCTION PAGE VARIABLE
 const String NAME = "Soumen Pal";
-const String PROFESSION_DETAILS = 'Software Developer and Final Year Computer Science Engineering Student';
+const String PROFESSION_DETAILS = 'Software Developer and Graduated in Computer Science Engineering';
 const String MORE_DETAILS_INTRODUCTION = "I love to build neat, cool and scalable application and I'm an aspiring Full Stack engineer.\n"
     'I love to learn and build new stuff that are beneficial to the community and cool to work on.\n'
     'I also have great interest in the open source community.';
