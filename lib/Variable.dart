@@ -20,7 +20,7 @@ const String MORE_DETAILS_INTRODUCTION = "I love to build neat, cool and scalabl
 const String IMAGE_PATH = 'assets/images/soumen.jpg';
 
 //ABOUT ME SECTION
-const String WHO_AM_I ="Hello! I'm Soumen Pal  , an Computer Science and Engineering students and software Developer.\n"
+const String WHO_AM_I ="Hello! I'm Soumen Pal  , a graduated Computer Science and Engineering students and software Developer.\n"
     'I love to create performant and interesting stuff that are benificial to the community. I enjoy learning and exploring new areas in the technologies. \nIn my opinion,'
     'getting your hands dirty is the best way to learn a new skill.\n'
     'My area of interest are Cross Platform Application Development , Android Application Development and Full Stack Development\n'
