@@ -40,7 +40,7 @@ class _SplashScreenScreenState extends State<SplashScreenScreen> {
                 size: 30,
               ),
               Text(
-                "Stealing Your Data",
+                "Be Put On The Back Burner",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 17,
