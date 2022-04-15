@@ -129,18 +129,50 @@ class _IntroDuctionAnimationTextAdapterState
             padding: EdgeInsets.only(bottom: 20),
             child: FutureBuilder(
               future: count(8),
-              builder: (context,snapshot){
-                if(snapshot.connectionState == ConnectionState.done){
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.done) {
                   return Container(
                     margin: EdgeInsets.only(top: 15),
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0),color: Colors.white38,),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30.0),
+                      color: Colors.white38,
+                    ),
                     child: TextButton(
                       child: Text(
                         "    Resume    ",
                         style: TextStyle(color: Colors.black, fontSize: 15),
                       ),
-                      onPressed: (){
-                        launch("https://drive.google.com/file/d/193tP1ztwtcf093o6a3RR2e0KY_okO4oI/view?usp=sharinghttps://drive.google.com/file/d/193tP1ztwtcf093o6a3RR2e0KY_okO4oI/view?usp=sharing");
+                      onPressed: () {
+                        launch(
+                            "https://drive.google.com/file/d/1raq8_Orc4gbT0u8sBnLIzSiorTy0uoXz/view?usp=sharing");
+                      },
+                    ),
+                  );
+                }
+                return Container();
+              },
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.only(bottom: 20),
+            child: FutureBuilder(
+              future: count(8),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.done) {
+                  return Container(
+                    margin: EdgeInsets.only(top: 15),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30.0),
+                      color: Colors.white38,
+                    ),
+                    child: TextButton(
+                      child: Text(
+                        "    Cover Letter    ",
+                        style: TextStyle(color: Colors.black, fontSize: 15),
+                      ),
+                      onPressed: () {
+                        launch(
+                            "https://drive.google.com/file/d/1WhA2MXBPmDjpY09U_XNGW5ntun3D_wly/view?usp=sharing");
                       },
                     ),
                   );
