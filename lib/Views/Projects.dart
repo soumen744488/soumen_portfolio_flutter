@@ -72,7 +72,8 @@ class _ProjectsState extends State<Projects> {
                           SecondTechnology: 'Java',
                           ThirdTechnology: 'Xml',
                           ForthTechnology: 'Rest Api (Rectrofit)',
-                          ProjectUrl: "https://github.com/iamsouviki/Read-Write-and-Share",
+                          ProjectUrl: "https://github.com/soumen744488/rws",
+                          PublicUrl: "https://www.amazon.com/dp/B08XY5VQKK/ref=apps_sf_sta",
                         );
                       }
                       return Container();
@@ -94,6 +95,7 @@ class _ProjectsState extends State<Projects> {
                           ThirdTechnology: 'Github',
                           ForthTechnology: 'Firebase',
                           ProjectUrl: "https://github.com/soumen744488/soumen_portfolio_flutter",
+                          PublicUrl: "https://soumenportfoilo.web.app/#/",
                         );
                       }
                       return Container();
@@ -115,6 +117,7 @@ class _ProjectsState extends State<Projects> {
                           ThirdTechnology: 'Sqlite',
                           ForthTechnology: '',
                           ProjectUrl: "https://github.com/soumen744488/ExpenseManager",
+                          PublicUrl: "",
                         );
                       }
                       return Container();

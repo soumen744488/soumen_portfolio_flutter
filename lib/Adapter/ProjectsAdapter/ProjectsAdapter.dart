@@ -12,6 +12,7 @@ class ProjectAdapter extends StatefulWidget {
   final String ThirdTechnology;
   final String ForthTechnology;
   final String ProjectUrl;
+  final String PublicUrl;
 
   const ProjectAdapter(
       {Key key,
@@ -23,6 +24,7 @@ class ProjectAdapter extends StatefulWidget {
        this.SecondTechnology,
        this.ThirdTechnology,
        this.ForthTechnology,
+       this.PublicUrl,
        this.ProjectUrl})
       : super(key: key);
   @override
@@ -193,6 +195,37 @@ class _ProjectAdapterState extends State<ProjectAdapter> {
                         ),
                         onPressed: () {
                           launch(widget.ProjectUrl);
+                        },
+                      ),
+                    ),
+                  ),
+                  Container(
+                    child: Container(
+                      width: 180,
+                      alignment: Alignment.center,
+                      margin: EdgeInsets.only(top: 15),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(30.0),
+                        color: Colors.white38,
+                      ),
+                      child: TextButton(
+                        child: Row(
+                          children: [
+                            Icon(
+                              IconData(0xe800,
+                                  fontFamily: 'MySocialIcons',
+                                  fontPackage: null),
+                              color: Colors.white,
+                            ),
+                            Text(
+                              "    Public Link    ",
+                              style:
+                                  TextStyle(color: Colors.black, fontSize: 15),
+                            )
+                          ],
+                        ),
+                        onPressed: () {
+                          launch(widget.PublicUrl);
                         },
                       ),
                     ),
