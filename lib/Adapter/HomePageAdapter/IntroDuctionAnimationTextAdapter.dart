@@ -144,7 +144,7 @@ class _IntroDuctionAnimationTextAdapterState
                       ),
                       onPressed: () {
                         launch(
-                            "https://drive.google.com/file/d/1oqnq5XLBf3NNz3uKJfprxLowCtdT6NIK/view?usp=sharing");
+                            "https://drive.google.com/file/d/1L5FdxLPtUXVKzKaKLF3SiOg3iYHITPAy/view?usp=sharing");
                       },
                     ),
                   );
@@ -172,7 +172,7 @@ class _IntroDuctionAnimationTextAdapterState
                       ),
                       onPressed: () {
                         launch(
-                            "https://drive.google.com/file/d/1RJOg8rmV_---9odp6RNFP_xT_HmkE-aL/view?usp=sharing");
+                            "https://drive.google.com/file/d/19Gdq3tSuGvo0RRJAHE99mhAe--VfGMgg/view?usp=sharing");
                       },
                     ),
                   );
