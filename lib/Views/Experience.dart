@@ -66,7 +66,7 @@ class _ExperienceState extends State<Experience> {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ExperienceAdapter(
                           CompanyLogoPath:
-                          'assets/images/cessini.png',
+                          'assets/images/nest.jpeg',
                           CompanyName: "Nest Innovation Soluion Private Limited",
                           WorkDescription: "I am working as a Junior Programmer in Nest Innovation Soluion Private Limited.",
                           WorkDescriptionForMobile: "I am working as a Junior Programmer in Nest Innovation Soluion Private Limited.",
