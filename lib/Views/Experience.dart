@@ -66,6 +66,21 @@ class _ExperienceState extends State<Experience> {
                       if (snapshot.connectionState == ConnectionState.done) {
                         return ExperienceAdapter(
                           CompanyLogoPath:
+                          'assets/images/cessini.png',
+                          CompanyName: "Nest Innovation Soluion Private Limited",
+                          WorkDescription: "I am working as a Junior Programmer in Nest Innovation Soluion Private Limited.",
+                          WorkDescriptionForMobile: "I am working as a Junior Programmer in Nest Innovation Soluion Private Limited.",
+                          WorkDuration: "May,2022 - Present",
+                        );
+                      }
+                      return Container();
+                    }),
+                FutureBuilder(
+                    future: count(2),
+                    builder: (context, snapshot) {
+                      if (snapshot.connectionState == ConnectionState.done) {
+                        return ExperienceAdapter(
+                          CompanyLogoPath:
                               'assets/images/cessini.png',
                           CompanyName: "Cessini Technology Private Limited",
                           WorkDescription: "I worked as a Application Engineer (as an intern) in Cessini Technology Private Limited.",
